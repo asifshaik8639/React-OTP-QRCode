@@ -1,0 +1,22 @@
+/* src/components/Login.css */
+.login-container {
+    margin-top: 100px;
+  }
+  
+  .login-form-2 {
+    padding: 9%;
+    background: #f8f9fa;
+    border-radius: 10px;
+    box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.1);
+  }
+  
+  .btnSubmit {
+    width: 50%;
+    border-radius: 10px;
+    padding: 2%;
+    border: none;
+    cursor: pointer;
+    color: #fff;
+    background: #0062cc;
+  }
+  
