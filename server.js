@@ -80,7 +80,7 @@ app.post('/github-webhook', (req, res) => {
   const eventKey = req.headers['x-event-key'];
   const payload = req.body;
 
-  console.log('Successfully recieved payload from github', payload);
+  console.log('Successfully recieved payload from github webhook', payload);
 
   if (eventKey === 'repo:push') {
     console.log('Bitbucket Push Event received:', payload);
