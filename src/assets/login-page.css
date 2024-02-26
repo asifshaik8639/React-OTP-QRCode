@@ -1,0 +1,115 @@
+.page-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 20px;;
+    overflow: auto;
+}
+
+.login-parent-container {
+    padding: 25px;
+    margin: 20px;
+    border: 1px solid wheat;
+    border-radius: 15px;;
+    width: 30vw;
+    text-align: center;
+}
+
+@media screen and (max-width: 768px) {
+    .login-parent-container {
+        width: 60vw;
+    }
+}
+
+.login-btn-container {
+    margin: 30px;
+    text-align: center;
+}
+
+.login-mnumber-section label {
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.edit-number-section {
+    display: flex;
+}
+
+.edit-number-section span {
+    position: relative;
+    top: 8px;
+    right: 35px;
+    text-decoration: underline  dotted white;
+    color: white;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.login-mnumber-section input, .edit-number-section input {
+   width: 35%;
+   height: 25px;;
+   font-size: 12px;
+   font-weight: bold;
+   margin-top: 5px;;
+}
+
+.qrcode-section {
+    background-color: #031840;
+    display: flex;
+    flex-direction: column;
+    padding: 25px;
+    margin: 20px;
+    border: 1px solid wheat;
+    border-radius: 15px;;
+    width: 35vw;
+    max-width: 200px;
+}
+
+.qrcode-section p{
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.verify-otp-section {
+    margin-top: 15px;;
+    display: flex;
+}
+
+.verify-otp-section input {
+  width: 35%;
+  height: 25px;;
+  font-size: 15px;
+  font-weight: bold;
+  margin-top: 10px;;
+}
+
+.verify-otp-section button {
+    margin:5px;
+}
+
+.qrcode-section img {
+    height: 100%;
+    border-radius: 10px;;
+}
+
+.verify-otp-container {
+    border: 1px solid wheat;
+    border-radius: 15px;;
+    padding: 10px;
+}
+
+@media screen and (max-width: 800px) {
+    .qrcode-section {
+        width: 60vw;;
+    }
+}
+
+.otp-status-cls {
+    color: wheat;
+}
+
+
+
+
+
